@@ -41,7 +41,6 @@ namespace DesafioFundamentos.Models
                     }
                 } while (!CheckIntUserInput(horasInput));
 
-                int horas = 0;
                 decimal valorTotal = precoInicial + (precoPorHora * int.Parse(horasInput));
 
                 veiculos.Remove(veiculo);
